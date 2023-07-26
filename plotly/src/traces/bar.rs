@@ -55,7 +55,7 @@ where
     legend_group_title: Option<LegendGroupTitle>,
     opacity: Option<f64>,
     ids: Option<Vec<String>>,
-    width: Option<usize>,
+    width: Option<f64>,
     offset: Option<Dim<usize>>,
     text: Option<Dim<String>>,
     #[serde(rename = "textposition")]
